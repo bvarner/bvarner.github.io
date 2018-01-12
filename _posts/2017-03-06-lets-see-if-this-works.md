@@ -1,4 +1,4 @@
-# Let's see if this Jekyll thing works and is as simple as it seems to look like it ought to be.
+Let's see if this Jekyll thing works and is as simple as it seems to look like it ought to be.
 
 A few years ago I had my own blog on wordpress, on my own "server", in my own closet, in my own home.
 

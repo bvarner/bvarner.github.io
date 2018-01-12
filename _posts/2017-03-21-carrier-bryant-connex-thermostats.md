@@ -1,4 +1,4 @@
-# Hacking the Bryant / Carrier Touchscreen Thermostats
+Hacking the Bryant / Carrier Touchscreen Thermostats
 
 At this point, I've done a sizable amount of reversing on the wire protocol.
 

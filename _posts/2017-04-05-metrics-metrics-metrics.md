@@ -1,4 +1,4 @@
-# Whole-house power consumption - Metrics Metrics Metrics. :-)
+Whole-house power consumption - Metrics Metrics Metrics. :-)
 
 1.) If you want to get UART to RS-485 -- Forget pi485. After way too long searching (but a nicely educational experience with pi485) I finally found some cheap import boards created to bridge UART -> RS485 that have:
 * Tx latching
