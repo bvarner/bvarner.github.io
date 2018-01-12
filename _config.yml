@@ -2,7 +2,9 @@ title: The LoneyBin 5.x
 author: bvarner
 description: The run-off of my brain, in digital form.
 
-theme: minima
+theme: jekyll-theme-slate
 exclude: 
    - Gemfile
    - Gemfile.lock
+
+
