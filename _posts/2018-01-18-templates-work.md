@@ -9,3 +9,5 @@ _The rear panel came out quite well._
 
 ![Despite Some Mess](/images/varnerized/rear_panel_during_template_removal.jpg)
 _Despite a huge mess and the template breaking when I removed it from the freshly created piece._
+
+Now the question is, will the 3mm tmplates I printed last week work with the 1/4" flush trim bits?
