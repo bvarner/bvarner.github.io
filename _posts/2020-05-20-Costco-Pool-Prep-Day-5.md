@@ -10,4 +10,8 @@ Did another total Alkalinity test. Results are still Over 250. Re-read the instr
 , and it looks like the water should turn yellow or clear. I can see drops briefly turning clear now. So there's
  progress. Added another pint (16 oz) of Acid. The jug is getting light.
  
+Wednesday Mid-day: Added 2oz of super-clarifier. Retested TA. Over 250. Dropped another pint of acid. Waited an
+ hour, turned the pump back on.
  
+Wednesday Evening: Tested TA. 33 drops (320) and the indicator solution went clear. Hot dog! We're closing in.
+Added another pint of acid. Let it sit for an hour, turned the pump back on. Let it run all night.
