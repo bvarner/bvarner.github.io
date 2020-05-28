@@ -8,3 +8,10 @@
      knock that out in no time.
    
 11:00 AM: PH is at 7.6. OK. Pool is OPEN.
+
+We swam. We enjoyed it. The kids spent a lot of time in the pool. I expect the novelty will wear off.
+
+I need to figure out a way to put a basketball hoop or something over one-end of it...
+
+
+9:00 PM: Dumped 24oz of Acid in to try and bring down the TA over night.
