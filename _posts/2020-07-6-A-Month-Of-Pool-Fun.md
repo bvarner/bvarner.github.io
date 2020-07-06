@@ -1,27 +1,20 @@
-So I read some more on the balancing act of TA & Acid. Turns out, I was doing it wrong. I could have saved quite a
- bit of money on waaaay less acid and soda ash. The secret? Aeration.
- 
-In doing this over and over, I noticed the following: Adding acid drops TA & pH (duh). Adding soda ash increased pH
-... and TA. Not what we want.
+A little maintenance update post... because it's been hardly any work to keep the pool up and going lately.
 
-We needed a process to increase pH but not TA. Enter Aeration.
+The filter and pump is a bit underpowered, for sure. We'll upgrade to a bigger pump / filter next year. We have them
+ on-hand already. I'll just need to the pluming and what-not around that. I'm not a huge fan of the 'clamp on
+ ' skimmer. Next year I'll get a through-wall skimmer to install.
 
-Using a spare pool hose, a shop-vac, electrical tape, and some 1.5" PVC I had lying around I hacked up a 'ghetto
- bubbler'. The exhaust of the shop-vac (a high-velocity low-pressure flow) is routed through the pool hose, into the
-  1.5" PVC which hangs over the side of the pool and is clamped in place. The parts of the PVC submerged under water
-   are drilled every 3/4" or so with a 1/32" drill bit -- on the bottom of the pipe. This creates a 'air stone
-   ' effect out of the PVC. I used electrical tape to make the hose fit snugly into the shop vac and the PVC bell end
-    I used. After proving this process worked, used the 3d printer to make some flexible TPU couplings that fit
-     nicely over the hose ends and adapt to the proper diameter, so I don't have to ruin anything with permanent
-      fixtures or tape. :-)
-      
- After two and a half days of bubbling, my pH went from ~5.0 to 7.6. PERFECT.
- I did not run the bubbler overnight, but I did redirect the return hose to 'jet' water and cause turbulence 24/7.
+Other than than, it's been magical. I've got the daily maintenance down well below 10-15 minutes. The pool water is
+ up to 82+ degrees every day, and it's been chemically stable for weeks. Even the rain hasn't affected it.
  
-The pool has had perfect water for a week, albeit a bit low level of water. And it keeps getting lower because you
- know, splashing, and evaporation. That's OK. We can deal with that.
+The TA did drift up to 90 at one point -- after we had several weeks of no rain, and I needed to top off the pool a
+ second time with softened well water. I knocked it back to 70, then bubbled the water back up to 7.2 pH.
  
-Added bonus: the shop-vac exhaust air is warm, and raises the pool temperature. :-)
+I've busted out the bubbler a few times, as rain seems to drop the pH pretty aggressively. About 6 hours of bubbling
+ will move the pH from 6.8 to 7.2, and raise the pool temp by two degrees Fahrenheit. It's kinda fun.
 
-So this morning I set about to raise the water level about 3 inches. I'm filling from the 'softened' water we use
- inside, although I'm quite sure my softener needs a recharge now.
+So long as I leave the vacuum in and let it run over night, the water stays nice and clean, and I only have to vacuum
+ around the perimeter about once a week, and that takes about 20 minutes. Other days I spend about 5 minutes getting
+  the vac in and out, and doing 'ladder duty' to grant or revoke access. ;-)
+ 
+I've enjoyed hopping in on hot days, as has the spouse. This was worth it.
