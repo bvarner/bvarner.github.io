@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>$siteTitle</title>
+    <description>$siteDescription</description>
+    <link>$siteUrl</link>
+    <language>$siteLanguage</language>
+    <copyright>$siteAuthor</copyright>
+    <pubDate>$generatedDate</pubDate>
+    <lastBuildDate>$generatedDate</lastBuildDate>
+    <generator>http://github.com/bvarner/sanesite</generator>
+    <ttl>30</ttl>
+    <atom:link href="$siteUrl/rss.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <title>$siteTitle</title>
+      <url>$siteUrl/images/rssFeedFolderLogo.gif</url>
+      <link>$siteUrl</link>
+      <description>$siteDescription</description>
+    </image>
+#foreach( $contentItem in $recentContent )
+    <item>
+      <title>$contentItem.getTitle()</title>
+      <description>$contentItem.getTeaser()</description>
+      <link>$siteUrl/$contentItem.getUrl()</link>
+      <guid isPermaLink="true">$siteUrl/$contentItem.getUrl()</guid>
+      <pubDate>$contentItem.getRssPublishDate()</pubDate>
+      <source url="$siteUrl/">$siteUrl</source>
+    </item>
+#end
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+#parse( "header.vm" )    
+    <div class="Content">
+        #foreach( $content in $recentContent )
+        <div class="post">
+            <h2><a href="$rootpath/$content.getUrl()">$content.getTitle()</a></h2>
+            <p class="post-details">$content.getDateCreated()
+                #foreach ( $tag in $post.tags )
+#if( $velocityCount == 1 ) in #end<a href="$rootpath/$tag">$tag</a>#if( $velocityHasNext ), #end
+                #end
+            </p>
+            $content.getContent()
+        </div>
+        #end
+    </div>
+#parse( "footer.vm" )

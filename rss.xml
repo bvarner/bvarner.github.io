@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The LoneyBin 6.x</title>
+    <description>The run-off of my brain, in digital form.</description>
+    <link>https://bvarner.github.io</link>
+    <language>en</language>
+    <copyright>bvarner</copyright>
+    <pubDate>Thu, 23 Jun 2022 09:16:47 EDT</pubDate>
+    <lastBuildDate>Thu, 23 Jun 2022 09:16:47 EDT</lastBuildDate>
+    <generator>http://github.com/bvarner/sanesite</generator>
+    <ttl>30</ttl>
+    <atom:link href="https://bvarner.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <title>The LoneyBin 6.x</title>
+      <url>https://bvarner.github.io/images/rssFeedFolderLogo.gif</url>
+      <link>https://bvarner.github.io</link>
+      <description>The run-off of my brain, in digital form.</description>
+    </image>
+  </channel>
+</rss>

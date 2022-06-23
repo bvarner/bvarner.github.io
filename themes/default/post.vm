@@ -1,0 +1,15 @@
+#parse( "header.vm" )
+<div class="Content">
+    <span style="float:left;">« <a href="$rootpath/$previousUrl">$previousTitle</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+        style="float:right;"><a href="$rootpath/$nextUrl">$nextTitle</a> »</span>
+    <div class="post">
+        <h1><a href="$rootpath/$contentItem.getUrl()">$contentItem.getTitle()</a></h1>
+        <p class="post-details">$contentItem.getDateCreated()
+            #foreach ( $tag in $contentItem.tags() )
+                #if( $velocityCount == 1 ) in #end<a href="$rootpath/$tag">$tag</a>#if( $velocityHasNext ), #end
+            #end
+        </p>
+        <p>$contentItem.getContent()</p>
+    </div>
+</div>
+#parse( "footer.vm" )

@@ -1,0 +1,35 @@
+			<div id="sidebar">
+			   <div id="pages"><h5>The Looney Bin</h5>
+				  <ul>
+			#foreach( $pageEntry in $pageMap.entrySet() )
+			<li><a href="$rootpath/$pageEntry.value.getUrl()">$pageEntry.key</a></li>
+			#end
+				  </ul>
+			   </div>
+			
+			   <div id="categories"><h5>Links</h5>
+				  <ul>
+				    <li><a href="https://github.com/bvarner">GitHub</a></li>
+				  </ul>
+			   </div>
+			   <div id="categories"><h5>Tags</h5>
+				  <ul>
+			#foreach( $tagKey in $tagKeys )
+			<li><a href="$rootpath/$tagKey.getUrl()">$tagKey.getTitle()</a> ($tagMap.get($tagKey).size())</li>
+			#end
+				  </ul>
+			   </div>
+			
+			   <div id="archives"><h5>Archives</h5>
+				  <ul>
+			#foreach( $archiveKey in $archiveKeys )
+			<li><a href="$rootpath/$archiveKey.getUrl()">$archiveKey.getTitle()</a> ($archiveMap.get($archiveKey).size())</li>
+			#end
+				  </ul>
+			   </div>
+			</div>
+		   </div> <!-- inside -->
+	    </div> <!-- outside -->
+    </div>
+</body>
+</html>

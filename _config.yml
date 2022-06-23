@@ -1,11 +1,6 @@
-title: The LoneyBin 5.x
+title: The LoneyBin 6.x
 author: bvarner
 description: The run-off of my brain, in digital form.
-
-theme: jekyll-theme-slate
-exclude: 
-   - Gemfile
-   - Gemfile.lock
-
-plugins:
-   - jekyll-feed
+baseurl: https://bvarner.github.io
+language: en
+destination: .

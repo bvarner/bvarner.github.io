@@ -1,0 +1,173 @@
+body {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	background-color: #d5d6d7;
+	color: #333333;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	margin: 0em;	
+}
+
+h2 {
+	font-size: 2em;
+	margin: 0em;	
+}
+
+h3 {
+	font-size: 1.6em;
+	margin: 0em;	
+}
+
+h4 {
+	font-size: 1.4em;
+	margin: 0em;	
+}
+
+h5 {
+	font-size: 1.2em;
+	margin: 0em;	
+}
+
+a:link {
+	color: #633;
+}
+
+a:visited {
+	color: #333;
+}
+
+a:hover {
+	color: #933;
+}
+
+blockquote {
+	color: #666;
+	margin: 1.5em 3em 0 1em;
+	padding-left: 2em;
+	border-left: 0.5em solid #DDD;
+	font-family: monospace;
+}
+
+
+/* Special stylized bullet, won't work in IE */
+ul {
+	margin-left: 0em;
+	padding:0 0 0 3em;
+	list-style: none;
+	padding-left: 1em;
+	text-indent: -1em;
+	margin: 0;
+}
+
+ul li:before, ul ul li:before {
+	content: "\00BB \0020";
+}
+
+ol {
+	margin: 0;
+}
+
+ol li {
+	margin: 0;
+	padding: 0;
+}
+
+
+#page {
+	font-size: 1.2em;
+	background-color: white;
+	border: 0.1em solid #663333;
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	display: inline-block;
+	width: 95%;
+	padding-bottom: 2em;
+}
+
+
+
+#header {
+	border-bottom: 0.2em solid #663333;
+	padding: 0.5em;
+}
+#header a {
+	text-decoration: none;
+}
+#header a:link {
+	color: #633;
+}
+
+#header a:visited {
+	color: #633;
+}
+#header a:hover {
+	color: #633;
+}
+
+#header p {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+#outside {
+	clear: left;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+
+#inside {
+	float: left;
+	width: 100%;
+	position: relative;
+	right: 18%;
+}
+
+
+#sidebar {
+	float: left;
+	width: 16%;
+	position: relative;
+	left: 22%;
+	overflow: hidden;
+	border-left: 0.1em dashed #663333;
+	padding-left: 0.5em;
+}
+
+#sidebar ul li {
+	white-space:nowrap;
+}
+
+#sidebar div {
+	margin-top: 1em;
+}
+
+#sidebar a {
+	text-decoration: none;
+}
+
+
+.Content {
+	float: left;
+	width: 75%;
+	position: relative;
+	left: 20%;
+	overflow: hidden;
+	padding-top: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.post {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border-bottom: 0.1em solid #663333;
+}
+
+.post-details {
+	margin-top:0em;
+	font-size: 1em;
+}
