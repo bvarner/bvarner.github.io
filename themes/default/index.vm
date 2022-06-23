@@ -3,10 +3,12 @@
         #foreach( $content in $recentContent )
         <div class="post">
             <h2><a href="$rootpath/$content.getUrl()">$content.getTitle()</a></h2>
-            <p class="post-details">$content.getDateCreated()
-                #foreach ( $tag in $post.tags )
-#if( $velocityCount == 1 ) in #end<a href="$rootpath/$tag">$tag</a>#if( $velocityHasNext ), #end
-                #end
+            <p class="post-details">Published: $content.getDateCreated()
+                <span class="tag-list">Tagged:
+                    #foreach ( $tagKey in $content.getTags() )
+                        #if( $velocityCount == 1 ) in #end<a href="$rootpath/$tagKey.getUrl()">$tagKey.getTitle()</a>#if( $velocityHasNext ), #end
+                    #end
+            </span>
             </p>
             $content.getContent()
         </div>

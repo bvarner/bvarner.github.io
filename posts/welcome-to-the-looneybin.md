@@ -14,4 +14,4 @@ I tried out Jekyll for the last few years on this site, and just didn't like it.
 So I've (re)rolled-my own static site generator, and I'll be using it to manage this site
 as the dry-run / POC for that generator, which I'm calling [sanesite](https://github.com/bvarner/sanesite).
 
-I look forward to seeing what the future holds with regards to this space.
+I look forward to seeing what the future holds in regard to this space.
