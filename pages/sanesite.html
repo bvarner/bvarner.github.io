@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>The LoneyBin</title>
+ 
+	<meta name="description" content="The run-off of my brain, in digital form." />
+	<meta name="keywords" content="" />
+ 
+	<link rel="shortcut icon" href="../files/favicon.ico" />
+ 
+	<link rel="stylesheet" type="text/css" href="../main.css"/>
+</head>
+<body>
+  <div id="page">
+    <div id="header">
+        <h1><img style="margin-right: 0.15em;" src="../files/bryanv_48.png"/><a href="https://bvarner.github.io">The LoneyBin</a></h1>
+        <p>The run-off of my brain, in digital form.</p>
+    </div>
+    <div id="outside">
+        <div id="inside"> 
+<div class="Content">
+    <div class="post">
+        <h2><a href="../pages/sanesite.html">sanesite</a></h2>
+        <p class="post-details">Published: 06/23/2022 14:57:43</br>
+            <span class="tag-list">Tagged:
+<a href="../tags/sanesite.html">sanesite</a>
+<a href="../tags/Java.html">Java</a>
+<a href="../tags/github.html">github</a>
+<a href="../tags/Jekyll.html">Jekyll</a>
+            </span>
+        </p>
+        <p><p><a href="https://github.com/bvarner/sanesite">Sanesite</a> is a static website content generator that turns <a href="./sanesite.md">markdown documents like this</a> into this webpage.
+It's a  bit like (and borrows ideas from) <a href="https://jekyllrb.com">Jekyll</a> but it's heritage is wholly different.</p>
+<h3>Why sanesite?</h3>
+<ul>
+<li>Static site managment trumps live-code, every time.
+I won't go into it here, but if you've ever been involved in creating, maintaining, managing, or using a non-static CMS, you know why.</li>
+<li>Jekyll won't do what I want, how I want, and the github pages support for it is several major releases behind.</li>
+<li>I've done everything from custom CMS to Wordpress in the past, and even wrote my own static site generator years ago.</li>
+<li>I did the whole 'put stuff on social media'. That has become an inferior experience now.</li>
+</ul>
+<h4>Let's start at the beginning...</h4>
+<p>My HTML / website days go back the glory days of GeoCities.</p>
+<p>After mangling my own HTML for what purposes I don't recall, I eventually landed on a custom PHP based CMS I wrote while I was in school, hosted on my own spare 486 machine that ran FreeBSD.</p>
+<p>I limped that thing along for a few years, then broke down and started going things statically again, with server-side includes on Apache.</p>
+<p>Eventually I self-hosted WordPress... which is a <em>nightmare</em>.</p>
+<p>After that, I think around 2010 or 2011, I created a thing I called KickBlog. It was a static site generator created as a custom <a href="https://ant.apache.org">Ant</a> task that used <a href="https://velocity.apache.org">Velocity</a> templates to generate a site. Individual posts were in their own files, and contained their own very basic HTML that was managed with CSS from the theme. It actually worked really well, but the migration (an export) from WordPress left a lot to be desired. While it worked, it wasn't robust, and it appears many of my sites contents were ... truncated. It was around this time that I started posting things (photos / projects) on Facebook, which was easier, and the blog sat and rusted...</p>
+<p>Somwhere near 2013 I quit self-hosting a server altogether, and mothballed the site.</p>
+<p>Apparently in 2015 I got jaded enough with Facebook and it's audience being a walled garden that I fired up the Github personal page, <a href="https://bvarner.github.io">bvarner.github.io</a>... and went the down rabbit hole of Jekyll.</p>
+<h3>Why not Jekyll</h3>
+<p>The following opinions are why I chose to revive and dust off an old code-base, modernize some things, and flee from Jekyll.</p>
+<h4>The structure</h4>
+<p>I really don't care for the structure of a Jekyll site. Ramming all your posts into one <code>_posts</code> directory seems hamfisted and not very ... organized.
+I've had issues with referencing files from the root url of the site, but that could be as much me as anything else.</p>
+<h4>The file naming conventions</h4>
+<p>Who in their right mind has time to try to remember how to name the files?
+If I'm writing a post, I want to write a post, then name it when I'm done. I want the date to come from the filesystem attributes, not the file name.
+If I want to tag it, then fine. Let me add tags.</p>
+<p>I ended up making a shell script <em>just to create a post in the right spot</em> with the right filename... and if I didn't get it finished, then the dates would be all sorts of crazy.
+Trying to read a directory that only had a handful of posts, if you wanted to edit one, was... ugh.</p>
+<p>In my mind, I'm writing documentation for projects, or a blog. The blog -- sure slam a bunch of that in one directory, but there comes a point where a directory with hundreds of small files is a nightmare.</p>
+<p>If I'm documenting projects, I don't want to stick that in <code>_posts</code>. I want to create a directory to store the stuff relevant to that project (media, etc.) then be able to have the generator pull that in.</p>
+<p>Sure, you can probably do that with Jekyll. You might even have an easier time doing it with newer versions of Jekyll.... but...</p>
+<h4>Github Pages Compatibility Issues</h4>
+<p>Github Pages seems frozen in time with an old version of Jekyll that just doesn't cut the mustard for me.</p>
+<h4>The themes</h4>
+<p>Jekyll themes are not my bag. I hate centered content that doesn't scale to the screen. I get it, they're all 'responsive' and 'mobile-first'. This site may not be, but it's mine, and I like my boxy late 2000's asthetic.</p>
+<h4>The dependencies</h4>
+<p>Seems like every week I'm getting dependabot alerts on esoteric dependencies in a Gemfile. I'm not expecting my deps for sanesite to be much better, but at least it's in a different repository and I'm not getting CVE alerts about my static website. LOL</p>
+<h3>How sanesite is different</h3>
+<ul>
+<li>You can put content wherever you want it. Make a directory, fill it with images, add a markdown file, and <em>bam</em>.</li>
+<li>You can pull your site, run <code>java -jar /path/to/sanesite.jar</code> and it'll generate it. There is no 'live preview' or 'server' built in.</li>
+<li>Preview your site with a browser on your local filesystem, then <code>git commit</code> and <code>git push</code> to publish.</li>
+<li>You can embed Velocity Templates into your markdown. We <em>could</em> make sanesite extensible with plugins, but that sounds like complexity I don't need in my life.</li>
+</ul>
+</p>
+    </div>
+</div>
+			<div id="sidebar">
+			   <div id="pages"><h5>The LoneyBin</h5>
+				  <ul>
+			<li><a href="../pages/sanesite.html">sanesite</a></li>
+				  </ul>
+			   </div>
+			
+			   <div id="categories"><h5>Links</h5>
+				  <ul>
+				    <li><a href="https://github.com/bvarner">GitHub</a></li>
+				  </ul>
+				  <ul>
+				    <li><a href="https://twitter.com/varnerrants">Twitter</a></li>
+				  </ul>
+			   </div>
+			   <div id="categories"><h5>Tags</h5>
+				  <ul>
+			<li><a href="../tags/Java.html">Java</a> (1)</li>
+			<li><a href="../tags/Jekyll.html">Jekyll</a> (1)</li>
+			<li><a href="../tags/github.html">github</a> (1)</li>
+			<li><a href="../tags/sanesite.html">sanesite</a> (2)</li>
+				  </ul>
+			   </div>
+			
+			   <div id="archives"><h5>Archives</h5>
+				  <ul>
+			<li><a href="../2022/6/index.html">6/2022</a> (1)</li>
+				  </ul>
+			   </div>
+			</div>
+		   </div> <!-- inside -->
+	    </div> <!-- outside -->
+    </div>
+</body>
+</html>

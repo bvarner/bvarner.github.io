@@ -1,5 +1,5 @@
 			<div id="sidebar">
-			   <div id="pages"><h5>The Looney Bin</h5>
+			   <div id="pages"><h5>$siteTitle</h5>
 				  <ul>
 			#foreach( $pageEntry in $pageMap.entrySet() )
 			<li><a href="$rootpath/$pageEntry.value.getUrl()">$pageEntry.key</a></li>
@@ -8,9 +8,11 @@
 			   </div>
 			
 			   <div id="categories"><h5>Links</h5>
+				   #foreach( $link in $links )
 				  <ul>
-				    <li><a href="https://github.com/bvarner">GitHub</a></li>
+				    <li><a href="$link.getUrl()">$link.getText()</a></li>
 				  </ul>
+				   #end
 			   </div>
 			   <div id="categories"><h5>Tags</h5>
 				  <ul>

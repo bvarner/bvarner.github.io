@@ -3,7 +3,7 @@
     <h2>$archive.getTitle()</h2>
     <ul>
 #foreach( $contentItem in $contents )
-        <li><a href="$rootpath/$contentItem.getUrl()">$contentItem.getTitle()</a> - $contentItem.getTeaser()</li>
+        <li><a href="$rootpath/$contentItem.getUrl()">$contentItem.getTitle()</a></li>
 #end
     </ul>
     </div>

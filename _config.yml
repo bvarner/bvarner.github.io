@@ -1,6 +1,9 @@
-title: The LoneyBin 6.x
+title: The LoneyBin
 author: bvarner
 description: The run-off of my brain, in digital form.
 baseurl: https://bvarner.github.io
 language: en
 destination: .
+links:
+  - { text: GitHub, url: https://github.com/bvarner }
+  - { text: Twitter, url: https://twitter.com/varnerrants }

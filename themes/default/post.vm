@@ -3,11 +3,13 @@
     <span style="float:left;">« <a href="$rootpath/$previousUrl">$previousTitle</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
         style="float:right;"><a href="$rootpath/$nextUrl">$nextTitle</a> »</span>
     <div class="post">
-        <h1><a href="$rootpath/$contentItem.getUrl()">$contentItem.getTitle()</a></h1>
-        <p class="post-details">$contentItem.getDateCreated()
-            #foreach ( $tag in $contentItem.tags() )
-                #if( $velocityCount == 1 ) in #end<a href="$rootpath/$tag">$tag</a>#if( $velocityHasNext ), #end
-            #end
+        <h2><a href="$rootpath/$contentItem.getUrl()">$contentItem.getTitle()</a></h2>
+        <p class="post-details">Published: $contentItem.getDateCreated()</br>
+            <span class="tag-list">Tagged:
+                #foreach ( $tagKey in $contentItem.getTags() )
+                    #if( $velocityCount == 1 ) in #end<a href="$rootpath/$tagKey.getUrl()">$tagKey.getTitle()</a>#if( $velocityHasNext ), #end
+                #end
+            </span>
         </p>
         <p>$contentItem.getContent()</p>
     </div>

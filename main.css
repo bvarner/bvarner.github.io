@@ -50,21 +50,6 @@ blockquote {
 	font-family: monospace;
 }
 
-
-/* Special stylized bullet, won't work in IE */
-ul {
-	margin-left: 0em;
-	padding:0 0 0 3em;
-	list-style: none;
-	padding-left: 1em;
-	text-indent: -1em;
-	margin: 0;
-}
-
-ul li:before, ul ul li:before {
-	content: "\00BB \0020";
-}
-
 ol {
 	margin: 0;
 }
@@ -87,7 +72,26 @@ ol li {
 	padding-bottom: 2em;
 }
 
+#page pre {
+	background-color: #DDDDDD;
+	border: 1px dashed #663333;
+	border-left: 3px solid #663333;
+	color: #333333;
+	page-break-inside: avoid;
+	font-family: monospace;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1em 1.5em 1em 1.5em;
+	display: block;
+	word-wrap: break-word;
+}
 
+#page code {
+	background-color: #DDDDDD;
+	font-family: monospace;
+	color: #333333;
+	border: 1px dashed #663333;
+}
 
 #header {
 	border-bottom: 0.2em solid #663333;
@@ -137,6 +141,21 @@ ol li {
 	padding-left: 0.5em;
 }
 
+
+/* Special stylized bullet, won't work in IE */
+#sidebar ul {
+	margin-left: 0em;
+	padding:0 0 0 3em;
+	list-style: none;
+	padding-left: 1em;
+	text-indent: -1em;
+	margin: 0;
+}
+
+#sidebar ul li:before, ul ul li:before {
+	content: "\00BB \0020";
+}
+
 #sidebar ul li {
 	white-space:nowrap;
 }
@@ -168,6 +187,7 @@ ol li {
 }
 
 .post-details {
-	margin-top:0em;
-	font-size: 1em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	font-size: 0.75em;
 }
