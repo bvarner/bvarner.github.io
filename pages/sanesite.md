@@ -8,7 +8,7 @@ tags:
   - Jekyll
 ---
 
-[Sanesite](https://github.com/bvarner/sanesite) is a static website content generator that turns [markdown documents like this](./sanesite.md) into this webpage.
+[Sanesite](https://github.com/bvarner/sanesite) is a static website content generator that turns [markdown documents like this](https://raw.githubusercontent.com/bvarner/bvarner.github.io/master/pages/sanesite.md) into this webpage.
 It's a  bit like (and borrows ideas from) [Jekyll](https://jekyllrb.com) but it's heritage is wholly different.
 
 
