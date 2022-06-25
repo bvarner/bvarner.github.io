@@ -17,6 +17,7 @@ This is a self-made replacement for a Delta 22-658.
 
 ## Why and How
 Years ago, I procured a Delta 22-660 Planer. It's a 13" model that was built in the 1980's, and these stout machines are fantastic.
+
 ![test image]($rootpath/pages/Delta-22-660-dust-hood/nameplate.jpg)
 
 At the time I bought it, it had no dust-port / shroud / hood on the back, and the gentleman I purchased it from told me he only ran it outside, and taped a piece of cardboard to the back to deflect chips. He was the original owner.
@@ -30,9 +31,11 @@ Having taken up Fusion360 in the last year (farewell, OpenSCAD -- you served me 
 The result is a print-it-yourself [Fusion360 model of a dust hood for a Delta 22-660 13" planer](https://a360.co/3xQ8jW9).
 
 This hood should fit any machine that has similar model numbers to this one:
+
 [![A screenshot of the model]($rootpath/pages/Delta-22-660-dust-hood/Model.jpg)](https://a360.co/3xQ8jW9)
 
 I used four M3 bolts to anchor it to the top plate, as well as M8 socket cap screws to attach the bottom to the back of the planer.
+
 ![Top Plate]($rootpath/pages/Delta-22-660-dust-hood/hood_connection.jpg)
 
 
@@ -46,5 +49,6 @@ and silicone caulk between mating surfaces of the printed parts to form a gasket
 During the design phase, I took my time and made several test pieces for critical spacing prior to printing.
 I would do this by slicing the model just a few layers thick, omitting top & bottom solid fill, and using a honeycomb
 and the cheapest filament I have on hand.
+
 ![Test Left]($rootpath/pages/Delta-22-660-dust-hood/test_left.jpg)
 ![Test Right]($rootpath/pages/Delta-22-660-dust-hood/test_right.jpg)
