@@ -8,6 +8,7 @@ tags:
   - Fusion360
 ---
 Print your own Delta Planer 22-660 Dust Hood with a 4" quick-disconnect port!
+This is a self-made replacement for a Delta 22-658.
 
 ![Installed Hood]($rootpath/pages/Delta-22-660-dust-hood/installed.jpg)
 
