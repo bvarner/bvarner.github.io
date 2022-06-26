@@ -6,8 +6,8 @@
     <link>https://bvarner.github.io</link>
     <language>en</language>
     <copyright>bvarner</copyright>
-    <pubDate>Sat, 25 Jun 2022 11:52:13 EDT</pubDate>
-    <lastBuildDate>Sat, 25 Jun 2022 11:52:13 EDT</lastBuildDate>
+    <pubDate>Sat, 25 Jun 2022 22:09:07 EDT</pubDate>
+    <lastBuildDate>Sat, 25 Jun 2022 22:09:07 EDT</lastBuildDate>
     <generator>http://github.com/bvarner/sanesite</generator>
     <ttl>30</ttl>
     <atom:link href="https://bvarner.github.io/rss.xml" rel="self" type="application/rss+xml" />
@@ -18,6 +18,15 @@
       <description>The run-off of my brain, in digital form.</description>
     </image>
     <item>
+      <title>Using an Arduino Nano to burn Arduino Bootloaders</title>
+      <description><p>Here's a <a href="https://kicad.org">KiCad</a> project for <a href="https://github.com/bvarner/ArduinoNanoISP">Using an Arduino Nano as an Arduino ISP</a>.</p>
+</description>
+      <link>https://bvarner.github.io/2022/6/Arduino-ISP.html</link>
+      <guid isPermaLink="true">https://bvarner.github.io/2022/6/Arduino-ISP.html</guid>
+      <pubDate>Sat, 25 Jun 2022 22:08:55 EDT</pubDate>
+      <source url="https://bvarner.github.io/">https://bvarner.github.io</source>
+    </item>
+    <item>
       <title>Welcome to the LooneyBin</title>
       <description><p>For the last few years I've been remiss in keeping a personal blog that didn't suck.
 Lately I've had need (or desire?) to post some longer-form project info, or re-establish a web
@@ -25,7 +34,7 @@ presence for things that don't fit nicely into the buckets served by social medi
 </description>
       <link>https://bvarner.github.io/2022/6/welcome-to-the-looneybin.html</link>
       <guid isPermaLink="true">https://bvarner.github.io/2022/6/welcome-to-the-looneybin.html</guid>
-      <pubDate>Fri, 24 Jun 2022 11:47:58 EDT</pubDate>
+      <pubDate>Sat, 25 Jun 2022 22:07:45 EDT</pubDate>
       <source url="https://bvarner.github.io/">https://bvarner.github.io</source>
     </item>
   </channel>

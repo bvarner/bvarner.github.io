@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>The LoneyBin</title>
+ 
+	<meta name="description" content="The run-off of my brain, in digital form." />
+	<meta name="keywords" content="" />
+ 
+	<link rel="shortcut icon" href="../../files/favicon.ico" />
+ 
+	<link rel="stylesheet" type="text/css" href="../../main.css"/>
+</head>
+<body>
+  <div id="page">
+    <div id="header">
+        <h1><img style="margin-right: 0.15em;" src="../../files/bryanv_48.png"/><a href="https://bvarner.github.io">The LoneyBin</a></h1>
+        <p>The run-off of my brain, in digital form.</p>
+    </div>
+    <div id="outside">
+<div class="Content">
+    <span style="float:left;">« <a href="../../2022/6/welcome-to-the-looneybin.html">Welcome to the LooneyBin</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+        style="float:right;"><a href="../../index.html">The LoneyBin</a> »</span>
+    <div class="post">
+        <h2><a href="../../2022/6/Arduino-ISP.html">Using an Arduino Nano to burn Arduino Bootloaders</a></h2>
+        <p class="post-details">Published: 06/25/2022 22:08:55</br>
+            <span class="tag-list">Tagged:
+<a href="../../tags/Arduino.html">Arduino</a>
+<a href="../../tags/KiCad.html">KiCad</a>
+<a href="../../tags/AntCNC.html">AntCNC</a>
+            </span>
+        </p>
+        <p><p>Here's a <a href="https://kicad.org">KiCad</a> project for <a href="https://github.com/bvarner/ArduinoNanoISP">Using an Arduino Nano as an Arduino ISP</a>.</p>
+<p>It produces this beautiful board:</p>
+<p><img src="../../files/ArduinoISPTop.jpg" alt="Board Top" /> <img src="../../files/ArduinoISPBottom.jpg" alt="Board Bottom" /></p>
+<p>Which in this case, I managed to (successfully) mill on the <a href="https://github.com/bvarner/varnerized_ant_cpcbm">Varnerized ANT CNC</a>.</p>
+<h2>Backstory</h2>
+<p>A few weeks ago the heater core on my <a href="https://github.com/bvarner/varnerized_prusa_i3">Varnerized Prusa</a> started shorting out -- in the process
+of replacing the heater, tuning the PID settings, and flashing the firmware back to the Arduino Mega that controls it, I found out (the hard way)
+that the USB-C to USB-A converters I have will... rapidly brick an Arduino.</p>
+<p>After confirming that it's only those converters that were the problem, I set about to 'unbrick' the Arduinos I'd bricked in the process of verifying that the cables were the problem.</p>
+<p>This led me to this most helpful site about <a href="https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP">Arduino as ISP and Arduino Bootloaders</a>, which contains some sketches and circuits for using healthy Arduinos to burn bootloaders onto 'bricked' Arduinos.</p>
+<p>I quickly breadboarded the circuits with parts I had on hand, got the Arduinos in working order, and was happy after I fixed the printer... sorta.</p>
+<p><img src="../../files/reflashing_the_printer.jpg" alt="reflashing the printer" /></p>
+<p>This is a pretty simple schematic, this is a pretty simple circuit, and it's one I can see myself using again in the future -- since I'm pretty sure this is the second time I've had to do this, and I didn't want to leave the circuit sitting on a breadboard on my desk for too long.
+My old breadboard is pretty clunky.</p>
+<p><img src="../../files/ArduinoISPBreadboard.jpg" alt="Old Breadboard" /></p>
+</p>
+    </div>
+</div>
+			<div id="sidebar">
+			   <div id="pages"><h5>The LoneyBin</h5>
+				  <ul>
+			<li><a href="../../pages/sanesite.html">sanesite</a></li>
+			<li><a href="../../pages/Delta 22-660 Dust Hood.html">Delta 22-660 Dust Hood</a></li>
+				  </ul>
+			   </div>
+			
+			   <div id="categories"><h5>Links</h5>
+				  <ul>
+				    <li><a href="https://github.com/bvarner">GitHub</a></li>
+				  </ul>
+				  <ul>
+				    <li><a href="https://twitter.com/varnerrants">Twitter</a></li>
+				  </ul>
+			   </div>
+			   <div id="categories"><h5>Tags</h5>
+				  <ul>
+			<li><a href="../../tags/3D Printing.html">3D Printing</a> (1)</li>
+			<li><a href="../../tags/AntCNC.html">AntCNC</a> (1)</li>
+			<li><a href="../../tags/Arduino.html">Arduino</a> (1)</li>
+			<li><a href="../../tags/Fusion360.html">Fusion360</a> (1)</li>
+			<li><a href="../../tags/Java.html">Java</a> (1)</li>
+			<li><a href="../../tags/Jekyll.html">Jekyll</a> (1)</li>
+			<li><a href="../../tags/KiCad.html">KiCad</a> (1)</li>
+			<li><a href="../../tags/Shop Tools.html">Shop Tools</a> (1)</li>
+			<li><a href="../../tags/github.html">github</a> (1)</li>
+			<li><a href="../../tags/sanesite.html">sanesite</a> (1)</li>
+				  </ul>
+			   </div>
+			
+			   <div id="archives"><h5>Archives</h5>
+				  <ul>
+			<li><a href="../../2022/6/index.html">6/2022</a> (2)</li>
+				  </ul>
+			   </div>
+			</div>
+	    </div> <!-- outside -->
+    </div>
+</body>
+</html>
