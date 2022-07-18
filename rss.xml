@@ -6,8 +6,8 @@
     <link>https://bvarner.github.io</link>
     <language>en</language>
     <copyright>bvarner</copyright>
-    <pubDate>Mon, 27 Jun 2022 13:35:43 EDT</pubDate>
-    <lastBuildDate>Mon, 27 Jun 2022 13:35:43 EDT</lastBuildDate>
+    <pubDate>Sun, 17 Jul 2022 21:11:59 EDT</pubDate>
+    <lastBuildDate>Sun, 17 Jul 2022 21:11:59 EDT</lastBuildDate>
     <generator>http://github.com/bvarner/sanesite</generator>
     <ttl>30</ttl>
     <atom:link href="https://bvarner.github.io/rss.xml" rel="self" type="application/rss+xml" />
@@ -21,9 +21,9 @@
       <title>Using an Arduino Nano to burn Arduino Bootloaders</title>
       <description><p>Here's a <a href="https://kicad.org">KiCad</a> project for <a href="https://github.com/bvarner/ArduinoNanoISP">Using an Arduino Nano as an Arduino ISP</a>.</p>
 </description>
-      <link>https://bvarner.github.io/2022/6/Arduino-ISP.html</link>
-      <guid isPermaLink="true">https://bvarner.github.io/2022/6/Arduino-ISP.html</guid>
-      <pubDate>Sat, 25 Jun 2022 22:08:55 EDT</pubDate>
+      <link>https://bvarner.github.io/2022/7/Arduino-ISP.html</link>
+      <guid isPermaLink="true">https://bvarner.github.io/2022/7/Arduino-ISP.html</guid>
+      <pubDate>Wed, 06 Jul 2022 23:12:25 EDT</pubDate>
       <source url="https://bvarner.github.io/">https://bvarner.github.io</source>
     </item>
     <item>
@@ -32,9 +32,9 @@
 Lately I've had need (or desire?) to post some longer-form project info, or re-establish a web
 presence for things that don't fit nicely into the buckets served by social media.</p>
 </description>
-      <link>https://bvarner.github.io/2022/6/welcome-to-the-looneybin.html</link>
-      <guid isPermaLink="true">https://bvarner.github.io/2022/6/welcome-to-the-looneybin.html</guid>
-      <pubDate>Sat, 25 Jun 2022 22:07:45 EDT</pubDate>
+      <link>https://bvarner.github.io/2022/7/welcome-to-the-looneybin.html</link>
+      <guid isPermaLink="true">https://bvarner.github.io/2022/7/welcome-to-the-looneybin.html</guid>
+      <pubDate>Wed, 06 Jul 2022 23:12:25 EDT</pubDate>
       <source url="https://bvarner.github.io/">https://bvarner.github.io</source>
     </item>
   </channel>
