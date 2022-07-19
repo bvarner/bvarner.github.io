@@ -31,32 +31,20 @@
     </div>
     <div id="outside">
 <div class="Content">
-    <span style="float:left;">« <a href="../../2022/6/welcome-to-the-looneybin.html">Welcome to the LooneyBin</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-        style="float:right;"><a href="../../2022/7/Ant-Updates.html">A cabinet for the ANT CNC</a> »</span>
+    <span style="float:left;">« <a href="../../2022/6/Arduino-ISP.html">Using an Arduino Nano to burn Arduino Bootloaders</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+        style="float:right;"><a href="../../index.html">The LoneyBin</a> »</span>
     <div class="post">
-        <h2><a href="../../2022/6/Arduino-ISP.html">Using an Arduino Nano to burn Arduino Bootloaders</a></h2>
-        <p class="post-details">Published: 06/25/2022 22:10:00</br>
+        <h2><a href="../../2022/7/Ant-Updates.html">A cabinet for the ANT CNC</a></h2>
+        <p class="post-details">Published: 07/19/2022 12:37:16</br>
             <span class="tag-list">Tagged:
+<a href="../../tags/ANT.html">ANT</a>
+<a href="../../tags/CNC.html">CNC</a>
 <a href="../../tags/Arduino.html">Arduino</a>
-<a href="../../tags/KiCad.html">KiCad</a>
-<a href="../../tags/AntCNC.html">AntCNC</a>
             </span>
         </p>
-        <p><p>Here's a <a href="https://kicad.org">KiCad</a> project for <a href="https://github.com/bvarner/ArduinoNanoISP">Using an Arduino Nano as an Arduino ISP</a>.</p>
-<p>It produces this beautiful board:</p>
-<p><img src="../../files/ArduinoISPTop.jpg" alt="Board Top" /> <img src="../../files/ArduinoISPBottom.jpg" alt="Board Bottom" /></p>
-<p>Which in this case, I managed to (successfully) mill on the <a href="https://github.com/bvarner/varnerized_ant_cpcbm">Varnerized ANT CNC</a>.</p>
-<h2>Backstory</h2>
-<p>A few weeks ago the heater core on my <a href="https://github.com/bvarner/varnerized_prusa_i3">Varnerized Prusa</a> started shorting out -- in the process
-of replacing the heater, tuning the PID settings, and flashing the firmware back to the Arduino Mega that controls it, I found out (the hard way)
-that the USB-C to USB-A converters I have will... rapidly brick an Arduino.</p>
-<p>After confirming that it's only those converters that were the problem, I set about to 'unbrick' the Arduinos I'd bricked in the process of verifying that the cables were the problem.</p>
-<p>This led me to this most helpful site about <a href="https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP">Arduino as ISP and Arduino Bootloaders</a>, which contains some sketches and circuits for using healthy Arduinos to burn bootloaders onto 'bricked' Arduinos.</p>
-<p>I quickly breadboarded the circuits with parts I had on hand, got the Arduinos in working order, and was happy after I fixed the printer... sorta.</p>
-<p><img src="../../files/reflashing_the_printer.jpg" alt="reflashing the printer" /></p>
-<p>This is a pretty simple schematic, this is a pretty simple circuit, and it's one I can see myself using again in the future -- since I'm pretty sure this is the second time I've had to do this, and I didn't want to leave the circuit sitting on a breadboard on my desk for too long.
-My old breadboard is pretty clunky.</p>
-<p><img src="../../files/ArduinoISPBreadboard.jpg" alt="Old Breadboard" /></p>
+        <p><p>I made some updates to my <a href="../../pages/Varnerized_Ant.html">Varnerized ANT CNC</a>.
+I'm pretty happy with how this looks, sits on a table, and functions. It's finally become a tool I can just setup and use, rather than one I have to tweak with constantly to get decent results.</p>
+<p>Maybe someday I'll make a bigger CNC...</p>
 </p>
     </div>
 </div>
