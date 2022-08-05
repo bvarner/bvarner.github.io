@@ -5,6 +5,7 @@ tags:
   - varnerized
   - ANT
   - CNC
+  - PCB
 ---
 [The Varnerized ANT CNC](https://github.com/bvarner/varnerized_ant_cpcbm) is a very small CNC machine with a high resolution for repeatability.
 
