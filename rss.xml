@@ -6,8 +6,8 @@
     <link>https://bvarner.github.io</link>
     <language>en</language>
     <copyright>bvarner</copyright>
-    <pubDate>Fri, 05 Aug 2022 11:44:18 EDT</pubDate>
-    <lastBuildDate>Fri, 05 Aug 2022 11:44:18 EDT</lastBuildDate>
+    <pubDate>Wed, 14 Dec 2022 21:42:49 EST</pubDate>
+    <lastBuildDate>Wed, 14 Dec 2022 21:42:49 EST</lastBuildDate>
     <generator>http://github.com/bvarner/sanesite</generator>
     <ttl>30</ttl>
     <atom:link href="https://bvarner.github.io/rss.xml" rel="self" type="application/rss+xml" />
@@ -17,6 +17,22 @@
       <link>https://bvarner.github.io</link>
       <description>The run-off of my brain, in digital form.</description>
     </image>
+    <item>
+      <title>(f)all the things</title>
+      <description><p>Since the last post, I've...</p>
+<ul>
+<li>Started writing my own Gerber X2/X3 file handling library and I've learned a lot.</li>
+<li>Spent months doing PT for my elbow. It didn't work. I had tennis elbow surgery (the open kind) about four weeks ago.</li>
+<li>The Wife had a major surgery go major sideways. She's fine now. We're lucky to have her with us, and for her to still be herself. :-)</li>
+<li>I built a bookcase / sofa table style piece of furniture from Ash for the wife. It's nice. I'll post photos some day.</li>
+<li>Started playing Minecraft with The Kids. Hoo boy. That's a time sink.</li>
+</ul>
+</description>
+      <link>https://bvarner.github.io/2022/12/(f)all-the-things.html</link>
+      <guid isPermaLink="true">https://bvarner.github.io/2022/12/(f)all-the-things.html</guid>
+      <pubDate>Wed, 14 Dec 2022 21:42:47 EST</pubDate>
+      <source url="https://bvarner.github.io/">https://bvarner.github.io</source>
+    </item>
     <item>
       <title>A cabinet for the ANT CNC</title>
       <description><p>I made some updates to my <a href="./pages/Varnerized_Ant.html">Varnerized ANT CNC</a>.
@@ -34,17 +50,6 @@ I'm pretty happy with how this looks, sits on a table, and functions. It's final
       <link>https://bvarner.github.io/2022/6/Arduino-ISP.html</link>
       <guid isPermaLink="true">https://bvarner.github.io/2022/6/Arduino-ISP.html</guid>
       <pubDate>Sat, 25 Jun 2022 22:10:00 EDT</pubDate>
-      <source url="https://bvarner.github.io/">https://bvarner.github.io</source>
-    </item>
-    <item>
-      <title>Welcome to the LooneyBin</title>
-      <description><p>For the last few years I've been remiss in keeping a personal blog that didn't suck.
-Lately I've had need (or desire?) to post some longer-form project info, or re-establish a web
-presence for things that don't fit nicely into the buckets served by social media.</p>
-</description>
-      <link>https://bvarner.github.io/2022/6/welcome-to-the-looneybin.html</link>
-      <guid isPermaLink="true">https://bvarner.github.io/2022/6/welcome-to-the-looneybin.html</guid>
-      <pubDate>Thu, 23 Jun 2022 16:22:33 EDT</pubDate>
       <source url="https://bvarner.github.io/">https://bvarner.github.io</source>
     </item>
   </channel>
