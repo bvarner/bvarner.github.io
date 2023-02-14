@@ -6,8 +6,8 @@
     <link>https://bvarner.github.io</link>
     <language>en</language>
     <copyright>bvarner</copyright>
-    <pubDate>Wed, 14 Dec 2022 21:42:49 EST</pubDate>
-    <lastBuildDate>Wed, 14 Dec 2022 21:42:49 EST</lastBuildDate>
+    <pubDate>Tue, 14 Feb 2023 10:48:57 EST</pubDate>
+    <lastBuildDate>Tue, 14 Feb 2023 10:48:57 EST</lastBuildDate>
     <generator>http://github.com/bvarner/sanesite</generator>
     <ttl>30</ttl>
     <atom:link href="https://bvarner.github.io/rss.xml" rel="self" type="application/rss+xml" />
@@ -17,6 +17,15 @@
       <link>https://bvarner.github.io</link>
       <description>The run-off of my brain, in digital form.</description>
     </image>
+    <item>
+      <title>Robust Systems</title>
+      <description><p>It's the small details that make the biggest impact.</p>
+</description>
+      <link>https://bvarner.github.io/2023/2/Robust_Systems.html</link>
+      <guid isPermaLink="true">https://bvarner.github.io/2023/2/Robust_Systems.html</guid>
+      <pubDate>Tue, 14 Feb 2023 10:38:28 EST</pubDate>
+      <source url="https://bvarner.github.io/">https://bvarner.github.io</source>
+    </item>
     <item>
       <title>(f)all the things</title>
       <description><p>Since the last post, I've...</p>
@@ -30,7 +39,7 @@
 </description>
       <link>https://bvarner.github.io/2022/12/(f)all-the-things.html</link>
       <guid isPermaLink="true">https://bvarner.github.io/2022/12/(f)all-the-things.html</guid>
-      <pubDate>Wed, 14 Dec 2022 21:42:47 EST</pubDate>
+      <pubDate>Wed, 14 Dec 2022 21:43:08 EST</pubDate>
       <source url="https://bvarner.github.io/">https://bvarner.github.io</source>
     </item>
     <item>
@@ -41,15 +50,6 @@ I'm pretty happy with how this looks, sits on a table, and functions. It's final
       <link>https://bvarner.github.io/2022/7/Ant-Updates.html</link>
       <guid isPermaLink="true">https://bvarner.github.io/2022/7/Ant-Updates.html</guid>
       <pubDate>Tue, 19 Jul 2022 12:45:57 EDT</pubDate>
-      <source url="https://bvarner.github.io/">https://bvarner.github.io</source>
-    </item>
-    <item>
-      <title>Using an Arduino Nano to burn Arduino Bootloaders</title>
-      <description><p>Here's a <a href="https://kicad.org">KiCad</a> project for <a href="https://github.com/bvarner/ArduinoNanoISP">Using an Arduino Nano as an Arduino ISP</a>.</p>
-</description>
-      <link>https://bvarner.github.io/2022/6/Arduino-ISP.html</link>
-      <guid isPermaLink="true">https://bvarner.github.io/2022/6/Arduino-ISP.html</guid>
-      <pubDate>Sat, 25 Jun 2022 22:10:00 EDT</pubDate>
       <source url="https://bvarner.github.io/">https://bvarner.github.io</source>
     </item>
   </channel>
